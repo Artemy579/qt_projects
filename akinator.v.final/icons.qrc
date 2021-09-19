@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/akinator-ask.png</file>
+    </qresource>
+</RCC>
