@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
     QByteArrayData data[10];
-    char stringdata0[109];
+    char stringdata0[104];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,20 +33,20 @@ struct qt_meta_stringdata_MainWindow_t {
 static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
     {
 QT_MOC_LITERAL(0, 0, 10), // "MainWindow"
-QT_MOC_LITERAL(1, 11, 13), // "start_program"
-QT_MOC_LITERAL(2, 25, 0), // ""
-QT_MOC_LITERAL(3, 26, 21), // "spinbox_value_changed"
-QT_MOC_LITERAL(4, 48, 5), // "value"
-QT_MOC_LITERAL(5, 54, 15), // "add_radiobutton"
-QT_MOC_LITERAL(6, 70, 5), // "count"
-QT_MOC_LITERAL(7, 76, 11), // "QBoxLayout*"
-QT_MOC_LITERAL(8, 88, 1), // "l"
-QT_MOC_LITERAL(9, 90, 18) // "remove_radiobutton"
+QT_MOC_LITERAL(1, 11, 21), // "spinbox_value_changed"
+QT_MOC_LITERAL(2, 33, 0), // ""
+QT_MOC_LITERAL(3, 34, 5), // "value"
+QT_MOC_LITERAL(4, 40, 15), // "add_radiobutton"
+QT_MOC_LITERAL(5, 56, 5), // "count"
+QT_MOC_LITERAL(6, 62, 11), // "QBoxLayout*"
+QT_MOC_LITERAL(7, 74, 1), // "l"
+QT_MOC_LITERAL(8, 76, 18), // "remove_radiobutton"
+QT_MOC_LITERAL(9, 95, 8) // "time_out"
 
     },
-    "MainWindow\0start_program\0\0"
-    "spinbox_value_changed\0value\0add_radiobutton\0"
-    "count\0QBoxLayout*\0l\0remove_radiobutton"
+    "MainWindow\0spinbox_value_changed\0\0"
+    "value\0add_radiobutton\0count\0QBoxLayout*\0"
+    "l\0remove_radiobutton\0time_out"
 };
 #undef QT_MOC_LITERAL
 
@@ -64,16 +64,16 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   34,    2, 0x08 /* Private */,
-       3,    1,   35,    2, 0x08 /* Private */,
-       5,    2,   38,    2, 0x08 /* Private */,
-       9,    2,   43,    2, 0x08 /* Private */,
+       1,    1,   34,    2, 0x08 /* Private */,
+       4,    2,   37,    2, 0x08 /* Private */,
+       8,    2,   42,    2, 0x08 /* Private */,
+       9,    0,   47,    2, 0x08 /* Private */,
 
  // slots: parameters
+    QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void, QMetaType::UInt, 0x80000000 | 6,    5,    7,
+    QMetaType::Void, QMetaType::UInt, 0x80000000 | 6,    5,    7,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Int,    4,
-    QMetaType::Void, QMetaType::UInt, 0x80000000 | 7,    6,    8,
-    QMetaType::Void, QMetaType::UInt, 0x80000000 | 7,    6,    8,
 
        0        // eod
 };
@@ -84,23 +84,23 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->start_program(); break;
-        case 1: _t->spinbox_value_changed((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 2: _t->add_radiobutton((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< QBoxLayout*(*)>(_a[2]))); break;
-        case 3: _t->remove_radiobutton((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< QBoxLayout*(*)>(_a[2]))); break;
+        case 0: _t->spinbox_value_changed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 1: _t->add_radiobutton((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< QBoxLayout*(*)>(_a[2]))); break;
+        case 2: _t->remove_radiobutton((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< QBoxLayout*(*)>(_a[2]))); break;
+        case 3: _t->time_out(); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         switch (_id) {
         default: *reinterpret_cast<int*>(_a[0]) = -1; break;
-        case 2:
+        case 1:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<int*>(_a[0]) = -1; break;
             case 1:
                 *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QBoxLayout* >(); break;
             }
             break;
-        case 3:
+        case 2:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<int*>(_a[0]) = -1; break;
             case 1:
