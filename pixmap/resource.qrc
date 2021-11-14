@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/paw.svg</file>
+        <file>images/Tileable-Dirty-Ground-Texture.png</file>
+        <file>images/close.svg</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/new/prefix2"/>
+    <qresource prefix="/">
+        <file>images/close-pressed.svg</file>
+    </qresource>
+</RCC>
