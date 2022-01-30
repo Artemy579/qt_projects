@@ -1,0 +1,38 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(86, 255, 159);
+}
+
+li{
+    padding: 10px;
+}
+
+table{
+    color: rgb(250, 227, 24);
+    border: orange;
+}
+
+td{
+    background-color: peru;
+    text-align: center;
+    box-shadow: inset 3px 3px 2px -2px white,
+    inset -3px -3px 2px -2px grey, 2px 2px 1px -1px black;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+div{
+    box-shadow: inset 3px 3px 2px -2px white,
+    inset -3px -3px 2px -2px peru;
+    border-radius: 10px;
+}
+
+caption{
+    color: black;
+}
+
+td:hover{
+    
+}

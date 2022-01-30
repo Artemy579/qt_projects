@@ -1,0 +1,15 @@
+body{
+  background-color: rgb(197, 194, 194);
+  font-size: 15px;   
+}
+
+section{
+    border-radius: 3px;
+    background-color: white;
+    margin: 15px;
+}
+
+main{
+    width: 800px;
+    margin: 0 auto;
+}
