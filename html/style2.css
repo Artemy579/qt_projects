@@ -1,15 +1,102 @@
 body{
-  background-color: rgb(197, 194, 194);
+  background-color: #eeeeee;
   font-size: 15px;   
 }
 
 section{
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: white;
     margin: 15px;
 }
 
 main{
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
+}
+
+h3{
+  color: #464646;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+p{
+  padding-left: 20px;
+}
+
+p.p1{
+  padding-bottom: 20px;
+}
+
+p.p2{
+  position: relative;
+  margin-left: 81px;
+  bottom: 117px;
+  line-height: 1.5em;
+}
+
+p.p3{
+  position: relative;
+  margin-left: 81px;
+  bottom: 185px;
+  line-height: 1.5em;
+}
+
+img.git{
+    width: 100px;
+    height: 100px;
+}
+
+img.stack{
+  width: 85px;
+  height: 85px;
+  position: relative;
+  bottom: 70px;
+  
+}
+
+h2{
+  color: #464646;
+  margin-left: 100px;
+  position: relative;
+  bottom: 100px;
+  
+}
+
+h2.stack{
+  color: #464646;
+  margin-left: 100px;
+  position: relative;
+  bottom: 170px;
+  
+}
+
+a{
+  color: #464646;
+  text-decoration: none;
+}
+
+a.a1{
+  color:mediumblue;
+}
+
+li{
+  position: relative;
+  border-top: 1px solid #ededed;
+  border-top-color: rgb(231, 229, 229);
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: none;
+  list-style-type: none;
+  bottom: 110px;
+  
+}
+
+div{
+  position: relative;
+  padding: 20px;
+  margin-right: 150px;
 }
