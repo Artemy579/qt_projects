@@ -21,11 +21,9 @@ public:
 private slots:
     void timer_start();
     void push_button_clicked();
-
+    void button_stop();
 private:
     Ui::MainWindow *ui;
-    qint16 hours, min, sec, mil_sec = 0;
-    int remaining_time = 0;
     int timeout = 0;
     QTimer timer;
     QElapsedTimer elapsed_timer;
